@@ -7,7 +7,7 @@ function logout() {
 
 function tokenValidate(){
     const TOKEN = localStorage.getItem('token')
-    if(TOKEN == null){
+    if(TOKEN === null){
         location.href = '../index.html'
     }
     console.log('Aunteticado', TOKEN)

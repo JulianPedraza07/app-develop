@@ -47,8 +47,6 @@ function login(email, password){
         alertBuilder(alertType, message)
     })
 
-
-
 }
 
 function alertBuilder(alertType, message) {
